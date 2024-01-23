@@ -8,17 +8,19 @@ body {
 
   }
   h1,
-  h2 {
+  h2,
+  h4 {
     text-align: center;
   }
   div.me {
     background-image: url(../images/me.png);
     background-size: cover;
-    height: 500px;
+    height: 70%;
     width: 100%;
     display: block;
     align-items: center;
   }
+  ul { padding: 0px;}
   div li {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -26,6 +28,7 @@ body {
     background-color:rgb(217, 196, 169);
     margin-bottom: 10px;
     padding-left: 20px;
+    margin-left: 0px;
   }
 
   li span {
